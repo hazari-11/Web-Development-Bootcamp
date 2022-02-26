@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+</head>
+<style>
+    h1{
+        background-color: firebrick;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    div > p{
+        color: cadetblue;
+        background-color: gold;
+        font-weight: bold;
+    }
+    div + p{
+        color: white;
+        background-color: blue;       
+    }
+</style>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is amazing</p></li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outer paragraph</p>
+</body>
+</html>
